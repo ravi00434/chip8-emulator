@@ -6,7 +6,7 @@ class Chip8
 {
 public:
     Chip8();
-  void Cycle();
+    void Cycle();
 
 private:
 std::array<uint8_t, 4096 > memory{};
