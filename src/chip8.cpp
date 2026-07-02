@@ -11,5 +11,5 @@ soundTimer = 0;
 }
 void Chip8::Cycle()
 {
-
+opcode = memory[pc] << 8 | memory[pc+1];
 }
